@@ -98,13 +98,13 @@ internal class UpdateAppActivity : AppCompatActivity() {
         sureBtn = findViewById(R.id.btn_update_sure)
         ivLogo = findViewById(R.id.iv_update_logo)
 
-        if (updateInfo.useDefaultTitleAndContent) {
+        if (updateInfo.useDefaultTitle) {
             updateInfo.updateTitle = GlobalContextProvider.getGlobalContext().getString(R.string.update_title);
         }
         // 更新标题
         tvTitle?.text = updateInfo.updateTitle;
 
-        if (updateInfo.useDefaultTitleAndContent) {
+        if (updateInfo.useDefaultContent) {
             updateInfo.updateContent = GlobalContextProvider.getGlobalContext().getString(R.string.update_content);
         }
         // 更新内容

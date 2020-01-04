@@ -19,6 +19,8 @@ internal data class UpdateInfo(
         var config: UpdateConfig = UpdateConfig(),
         // ui配置
         var uiConfig: UiConfig = UiConfig(),
-        //是否是使用默认的标题和内容
-        var useDefaultTitleAndContent: Boolean = true
+        //是否是使用默认的标题
+        var useDefaultTitle: Boolean = false,
+        //是否是使用默认的内容
+        var useDefaultContent: Boolean = true
 )
