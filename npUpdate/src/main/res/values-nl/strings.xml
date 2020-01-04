@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">prompt</string>
+    <string name="cancel">geannuleerd</string>
+    <string name="sure">bevestigen</string>
+    <string name="update_now">Update nu</string>
+    <string name="update_cancel">Nog niet bijgewerkt</string>
+    <string name="update_title">Bijgewerkte versie!</string>
+    <string name="update_content">Nieuwe versie gevonden, update nu</string>
+    <string name="download_fail">Download fout, klik op Opnieuw</string>
+    <string name="toast_download_apk">Downloaden bijwerken ...</string>
+    <string name="downloading">Download</string>
+    <string name="no_storage_permission">"Geen opslagrechten, ga naar openen"</string>
+    <string name="check_wifi_notice">"Wifi is momenteel niet verbonden, doorgaan met downloaden"</string>
+    <string name="install">Nu installeren</string>
+</resources>

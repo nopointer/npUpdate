@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">подсказка</string>
+    <string name="cancel">отменен</string>
+    <string name="sure">Подтверждение</string>
+    <string name="update_now">Обновить сейчас</string>
+    <string name="update_cancel">Еще не обновлено</string>
+    <string name="update_title">Обновленная версия!</string>
+    <string name="update_content">Новая версия найдена, обновите сейчас</string>
+    <string name="download_fail">Ошибка загрузки, нажмите, чтобы повторить</string>
+    <string name="toast_download_apk">Обновление загрузки ...</string>
+    <string name="downloading">скачать</string>
+    <string name="no_storage_permission">«Нет прав на хранение, откройте»</string>
+    <string name="check_wifi_notice">"Wi-Fi в данный момент не подключен, продолжить загрузку"</string>
+    <string name="install">Установить сейчас</string>
+</resources>

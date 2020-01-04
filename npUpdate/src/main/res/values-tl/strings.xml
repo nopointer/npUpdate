@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">çabuk</string>
+    <string name="cancel">iptal edildi</string>
+    <string name="sure">Onayla</string>
+    <string name="update_now">Şimdi güncelle</string>
+    <string name="update_cancel">Henüz güncellenmedi</string>
+    <string name="update_title">Güncelleme sürümü!</string>
+    <string name="update_content">Yeni sürüm bulundu, şimdi güncelle</string>
+    <string name="download_fail">İndirme hatası, tekrar denemek için tıklayın</string>
+    <string name="toast_download_apk">İndirme güncelleniyor ...</string>
+    <string name="downloading">İndir</string>
+    <string name="no_storage_permission">"Depolama hakkı yok, açın"</string>
+    <string name="check_wifi_notice">"Wifi şu anda bağlı değil, indirmeye devam et"</string>
+    <string name="install">Şimdi yükle</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">Συμβουλή</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="sure">Επιβεβαιώστε</string>
+    <string name="update_now">Ενημερώστε τώρα</string>
+    <string name="update_cancel">Δεν έχει ενημερωθεί ακόμα</string>
+    <string name="update_title">Ενημερωμένη έκδοση!</string>
+    <string name="update_content">Νέα έκδοση βρέθηκε, ενημερώστε τώρα</string>
+    <string name="download_fail">Λήψη σφάλματος, κάντε κλικ για επανάληψη</string>
+    <string name="toast_download_apk">Ενημέρωση λήψης ...</string>
+    <string name="downloading">Λήψη</string>
+    <string name="no_storage_permission">"Δεν υπάρχουν δικαιώματα αποθήκευσης, ανοίξτε"</string>
+    <string name="check_wifi_notice">"Το Wi-Fi δεν είναι συνδεδεμένο, συνεχίστε να"</string>
+    <string name="install">Εγκαταστήστε τώρα</string>
+</resources>

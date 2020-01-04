@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">Wskazówka</string>
+    <string name="cancel">Anuluj</string>
+    <string name="sure">Potwierdź</string>
+    <string name="update_now">Zaktualizuj teraz</string>
+    <string name="update_cancel">Jeszcze nie zaktualizowane</string>
+    <string name="update_title">Zaktualizowana wersja!</string>
+    <string name="update_content">Znaleziono nową wersję, zaktualizuj teraz</string>
+    <string name="download_fail">Błąd pobierania, kliknij, aby spróbować ponownie</string>
+    <string name="toast_download_apk">Zaktualizuj pobieranie ...</string>
+    <string name="downloading">Pobieranie</string>
+    <string name="no_storage_permission">„Brak praw do przechowywania, otwórz”</string>
+    <string name="check_wifi_notice">„Wifi nie jest aktualnie podłączone, kontynuuj pobieranie”</string>
+    <string name="install">Zainstaluj teraz</string>
+</resources>

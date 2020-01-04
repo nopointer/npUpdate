@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">ヒント</string>
+    <string name="cancel">キャンセルする</string>
+    <string name="sure">確認する</string>
+    <string name="update_now">今すぐ更新</string>
+    <string name="update_cancel">まだ更新されていません</string>
+    <string name="update_title">更新されたバージョン！</string>
+    <string name="update_content">新しいバージョンが見つかりました、今すぐ更新</string>
+    <string name="download_fail">ダウンロードエラー、クリックして再試行</string>
+    <string name="toast_download_apk">アップデートのダウンロード...</string>
+    <string name="downloading">ダウンロード中</string>
+    <string name="no_storage_permission">「保管権なし、開く」</string>
+    <string name="check_wifi_notice">「Wifiは現在接続されていません。ダウンロードを続行してください」</string>
+    <string name="install">今すぐインストール</string>
+</resources>

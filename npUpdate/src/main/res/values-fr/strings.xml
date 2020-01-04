@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">Indice</string>
+    <string name="cancel">Annuler</string>
+    <string name="sure">Confirmer</string>
+    <string name="update_now">Mettre à jour maintenant</string>
+    <string name="update_cancel">Pas encore mis à jour</string>
+    <string name="update_title">Version mise à jour!</string>
+    <string name="update_content">Nouvelle version trouvée, mise à jour maintenant</string>
+    <string name="download_fail">Erreur de téléchargement, cliquez pour réessayer</string>
+    <string name="toast_download_apk">Mise à jour du téléchargement ...</string>
+    <string name="downloading">Téléchargement</string>
+    <string name="no_storage_permission">"Pas de droits de stockage, allez ouvrir"</string>
+    <string name="check_wifi_notice">"Le Wifi n'est pas actuellement connecté, continuez le téléchargement"</string>
+    <string name="install">Installer maintenant</string>
+</resources>

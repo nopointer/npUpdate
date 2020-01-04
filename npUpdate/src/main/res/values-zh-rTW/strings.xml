@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">提示</string>
+    <string name="cancel">取消</string>
+    <string name="sure">確認</string>
+    <string name="update_now">立即更新</string>
+    <string name="update_cancel">暫不更新</string>
+    <string name="update_title">版本更新啦！</string>
+    <string name="update_content">發現新版本，立即更新</string>
+    <string name="download_fail">下載出錯，點擊重試</string>
+    <string name="toast_download_apk">更新下載中...</string>
+    <string name="downloading">下載中</string>
+    <string name="no_storage_permission">"暫無儲存權限，是否前往打開"</string>
+    <string name="check_wifi_notice">"當前沒有連接Wifi，是否繼續下載"</string>
+    <string name="install">立即安裝</string>
+</resources>

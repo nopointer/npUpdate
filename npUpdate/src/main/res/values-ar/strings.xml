@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">موجه</string>
+    <string name="cancel">ألغيت</string>
+    <string name="sure">تأكيد</string>
+    <string name="update_now">تحديث الآن</string>
+    <string name="update_cancel">لم يتم تحديثه بعد</string>
+    <string name="update_title">نسخة محدثة!</string>
+    <string name="update_content">تم العثور على نسخة جديدة ، تحديث الآن</string>
+    <string name="download_fail">خطأ في التنزيل ، انقر لإعادة المحاولة</string>
+    <string name="toast_download_apk">تحديث التنزيل ...</string>
+    <string name="downloading">تحميل</string>
+    <string name="no_storage_permission">"لا حقوق التخزين ، انتقل إلى فتح"</string>
+    <string name="check_wifi_notice">"Wifi غير متصل حاليًا ، تابع التنزيل"</string>
+    <string name="install">تثبيت الآن</string>
+</resources>

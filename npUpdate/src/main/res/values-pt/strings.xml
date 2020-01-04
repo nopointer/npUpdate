@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">Sugestão</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sure">Confirme</string>
+    <string name="update_now">Atualizar agora</string>
+    <string name="update_cancel">Ainda não atualizado</string>
+    <string name="update_title">Versão atualizada!</string>
+    <string name="update_content">Nova versão encontrada, atualize agora</string>
+    <string name="download_fail">Erro de download, clique para tentar novamente</string>
+    <string name="toast_download_apk">Atualizar download ...</string>
+    <string name="downloading">Fazendo download</string>
+    <string name="no_storage_permission">"Sem direitos de armazenamento, vá para abrir"</string>
+    <string name="check_wifi_notice">"O Wifi não está conectado no momento, continue o download"</string>
+    <string name="install">Instale agora</string>
+</resources>

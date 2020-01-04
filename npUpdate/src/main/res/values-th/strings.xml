@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">รวดเร็ว</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="sure">ยืนยัน</string>
+    <string name="update_now">อัปเดตทันที</string>
+    <string name="update_cancel">ยังไม่ได้อัปเดต</string>
+    <string name="update_title">อัปเดตเวอร์ชันแล้ว!</string>
+    <string name="update_content">พบเวอร์ชันใหม่อัปเดตเลย</string>
+    <string name="download_fail">ข้อผิดพลาดในการดาวน์โหลดคลิกเพื่อลองอีกครั้ง</string>
+    <string name="toast_download_apk">อัปเดตการดาวน์โหลด ...</string>
+    <string name="downloading">ดาวน์โหลด</string>
+    <string name="no_storage_permission">"ไม่มีสิทธิ์เก็บข้อมูลไปที่เปิด"</string>
+    <string name="check_wifi_notice">"Wifi ไม่ได้เชื่อมต่อดาวน์โหลดต่อ"</string>
+    <string name="install">ติดตั้งทันที</string>
+</resources>

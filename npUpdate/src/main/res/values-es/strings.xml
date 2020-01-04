@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">Pista</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sure">Confirmar</string>
+    <string name="update_now">Actualiza ahora</string>
+    <string name="update_cancel">Aún no actualizado</string>
+    <string name="update_title">Versión actualizada!</string>
+    <string name="update_content">Nueva versión encontrada, actualizar ahora</string>
+    <string name="download_fail">Error de descarga, haga clic para volver a intentar</string>
+    <string name="toast_download_apk">Descarga de actualizaciones ...</string>
+    <string name="downloading">Descargando</string>
+    <string name="no_storage_permission">"Sin derechos de almacenamiento, ve a abrir"</string>
+    <string name="check_wifi_notice">"Wifi no está conectado actualmente, continúe descargando"</string>
+    <string name="install">Instalar ahora</string>
+</resources>
