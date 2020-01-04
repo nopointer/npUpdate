@@ -60,6 +60,14 @@ object UpdateAppUtils {
     }
 
     /**
+     * 设置是否使用默认的标题和内容
+     */
+    fun useDefaultTitleAndContent(useDefaultTitleAndContent: Boolean): UpdateAppUtils {
+        updateInfo.useDefaultTitleAndContent = useDefaultTitleAndContent;
+        return this;
+    }
+
+    /**
      * 设置更新内容
      */
     fun updateContent(content: CharSequence): UpdateAppUtils {

@@ -71,7 +71,7 @@ internal class UpdateAppActivity : AppCompatActivity() {
         refreshUI();
     }
 
-    fun refreshUI(){
+    fun refreshUI() {
 
         // 初始化UI回调，用于进一步自定义UI
         UpdateAppUtils.onInitUiListener?.onInitUpdateUi(
@@ -88,6 +88,7 @@ internal class UpdateAppActivity : AppCompatActivity() {
         super.onResume()
         refreshUI();
     }
+
     @SuppressLint("ClickableViewAccessibility")
     private fun initView() {
 
@@ -97,14 +98,20 @@ internal class UpdateAppActivity : AppCompatActivity() {
         sureBtn = findViewById(R.id.btn_update_sure)
         ivLogo = findViewById(R.id.iv_update_logo)
 
+        if (updateInfo.useDefaultTitleAndContent) {
+            updateInfo.updateTitle = GlobalContextProvider.getGlobalContext().getString(R.string.update_title);
+        }
         // 更新标题
-        tvTitle?.text = updateInfo.updateTitle
+        tvTitle?.text = updateInfo.updateTitle;
 
+        if (updateInfo.useDefaultTitleAndContent) {
+            updateInfo.updateContent = GlobalContextProvider.getGlobalContext().getString(R.string.update_content);
+        }
         // 更新内容
         tvContent?.text = updateInfo.updateContent
 
         // 取消
-        uiConfig.cancelBtnText =resources.getText(R.string.update_cancel)
+        uiConfig.cancelBtnText = resources.getText(R.string.update_cancel)
         cancelBtn?.setOnClickListener {
             updateConfig.force.yes {
                 Utils.exitApp()
@@ -114,7 +121,7 @@ internal class UpdateAppActivity : AppCompatActivity() {
         }
 
         // 确定
-        uiConfig.updateBtnText =resources.getText(R.string.update_now)
+        uiConfig.updateBtnText = resources.getText(R.string.update_now)
         sureBtn?.setOnClickListener {
 
             DownloadAppUtils.isDownloading.no {
