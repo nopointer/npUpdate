@@ -1,5 +1,7 @@
 package demo.nopointer.npUpdate.update;
 
+import android.os.Environment;
+
 import demo.nopointer.npUpdate.MainApplication;
 import demo.nopointer.npUpdate.R;
 import npUpdate.nopointer.constacne.UiType;
@@ -12,7 +14,8 @@ import npUpdate.nopointer.update.UpdateAppUtils;
 
 public class AppUpdate {
 
-    private String apkUrl = "http://118.24.148.250:8080/yk/update_signed.apk";
+    //换成具体的项目的apk安装路径（本项目里面的路径不一定能保证成功）
+    private String apkUrl = "https://github.com/nopointer/npUpdate/raw/master/app/demo/npUpdate.apk";
     private String updateTitle = "发现新版本V2.0.0";
     private String updateContent = "1、Kotlin重构版\n2、支持自定义UI\n3、增加md5校验\n4、更多功能等你探索";
 
@@ -20,7 +23,7 @@ public class AppUpdate {
     private AppUpdate() {
         // 启动应用后删除安装包
         UpdateAppUtils.getInstance().deleteInstalledApk();
-        updateTitle = "";
+        updateTitle = "1.0.1";
         updateContent = MainApplication.getMainApplication().getResources().getString(R.string.update_content);
     }
 
@@ -39,7 +42,9 @@ public class AppUpdate {
     private void showNewVersion() {
         UpdateConfig updateConfig = new UpdateConfig();
         updateConfig.setCheckWifi(true);
-        updateConfig.setNeedCheckMd5(true);
+        updateConfig.setNeedCheckMd5(false);
+
+        updateConfig.setApkSavePath(Environment.getExternalStorageDirectory() + "/npUpdate/update");
         updateConfig.setNotifyImgRes(R.mipmap.ic_launcher);
 
         UiConfig uiConfig = new UiConfig();

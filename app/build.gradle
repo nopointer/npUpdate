@@ -4,11 +4,11 @@ android {
     compileSdkVersion var.compileSdkVersion
 
     defaultConfig {
-        applicationId "demo.nopointer.npLog"
+        applicationId "demo.nopointer.npUpdate"
         minSdkVersion var.minSdkVersion
         targetSdkVersion var.targetSdkVersion
-        versionCode 1
-        versionName "1.0.0"
+        versionCode 3
+        versionName "1.0.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
 
