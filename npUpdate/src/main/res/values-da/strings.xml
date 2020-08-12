@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">hurtig</string>
+    <string name="cancel">afbestille</string>
+    <string name="sure">bekræfte</string>
+    <string name="update_now">opdater straks</string>
+    <string name="update_cancel">Ikke opdateret</string>
+    <string name="update_title">Versionen er opdateret!</string>
+    <string name="update_content">Find en ny version, opdater straks</string>
+    <string name="download_fail">Downloadfejl, klik på prøve igen</string>
+    <string name="toast_download_apk">Opdater downloading ...</string>
+    <string name="downloading">downloading</string>
+    <string name="no_storage_permission">"Ingen lagringstilladelse, vil du åbne den?"</string>
+    <string name="check_wifi_notice">"Aktuelt ikke tilsluttet Wifi, om du vil fortsætte med at downloade"</string>
+    <string name="install">Installer nu</string>
+</resources>

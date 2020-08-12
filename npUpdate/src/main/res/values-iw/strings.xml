@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">מיידי</string>
+    <string name="cancel">לְבַטֵל</string>
+    <string name="sure">לְאַשֵׁר</string>
+    <string name="update_now">עדכן מייד</string>
+    <string name="update_cancel">לא מעודכן</string>
+    <string name="update_title">הגרסה מעודכנת!</string>
+    <string name="update_content">מצא גרסה חדשה, עדכן מייד</string>
+    <string name="download_fail">שגיאת הורדה, לחץ שוב לנסות</string>
+    <string name="toast_download_apk">עדכן את ההורדה ...</string>
+    <string name="downloading">מוריד</string>
+    <string name="no_storage_permission">"אין אישור אחסון, אתה רוצה לפתוח אותה?"</string>
+    <string name="check_wifi_notice">"כרגע לא מחובר ל- Wifi, האם להמשיך להוריד"</string>
+    <string name="install">להתקין עכשיו</string>
+</resources>

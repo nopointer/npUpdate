@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">výzva</string>
+    <string name="cancel">zrušení</string>
+    <string name="sure">potvrdit</string>
+    <string name="update_now">aktualizujte okamžitě</string>
+    <string name="update_cancel">Neaktualizováno</string>
+    <string name="update_title">Verze je aktualizována!</string>
+    <string name="update_content">Najděte novou verzi, okamžitě aktualizujte</string>
+    <string name="download_fail">Chyba stahování, klikněte na tlačítko Opakovat</string>
+    <string name="toast_download_apk">Aktualizovat stahování ...</string>
+    <string name="downloading">stahování</string>
+    <string name="no_storage_permission">"Nemáte povolení k úložišti, chcete jej otevřít?"</string>
+    <string name="check_wifi_notice">„Aktuálně není připojeno k síti Wi-Fi, ať už chcete pokračovat ve stahování“</string>
+    <string name="install">nainstalovat nyní</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">nopea</string>
+    <string name="cancel">peruuttaa</string>
+    <string name="sure">vahvistaa</string>
+    <string name="update_now">päivitä heti</string>
+    <string name="update_cancel">Ei päivitetty</string>
+    <string name="update_title">Versio päivitetään!</string>
+    <string name="update_content">Löydä uusi versio, päivitä heti</string>
+    <string name="download_fail">Lataa virhe, napsauta uudelleen</string>
+    <string name="toast_download_apk">Päivitä lataus ...</string>
+    <string name="downloading">lataaminen</string>
+    <string name="no_storage_permission">"Ei tallennuslupaa, haluatko avata sen?"</string>
+    <string name="check_wifi_notice">"Tällä hetkellä ei ole yhteyttä Wifi-palveluun, jatketaanko lataamista"</string>
+    <string name="install">Asenna nyt</string>
+</resources>

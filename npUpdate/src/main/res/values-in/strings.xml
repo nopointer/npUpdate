@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">cepat</string>
+    <string name="cancel">membatalkan</string>
+    <string name="sure">Konfirmasi</string>
+    <string name="update_now">perbarui segera</string>
+    <string name="update_cancel">Tidak diperbarui</string>
+    <string name="update_title">Versi diperbarui!</string>
+    <string name="update_content">Temukan versi baru, perbarui segera</string>
+    <string name="download_fail">Kesalahan unduhan, klik coba lagi</string>
+    <string name="toast_download_apk">Perbarui pengunduhan ...</string>
+    <string name="downloading">mengunduh</string>
+    <string name="no_storage_permission">"Tidak ada izin penyimpanan, apakah Anda ingin membukanya?"</string>
+    <string name="check_wifi_notice">"Saat ini tidak terhubung ke Wifi, apakah akan melanjutkan pengunduhan"</string>
+    <string name="install">Pasang sekarang</string>
+</resources>

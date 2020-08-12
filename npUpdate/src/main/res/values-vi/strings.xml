@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">lời nhắc</string>
+    <string name="cancel">hủy bỏ</string>
+    <string name="sure">xác nhận</string>
+    <string name="update_now">cập nhật ngay lập tức</string>
+    <string name="update_cancel">Không cập nhật</string>
+    <string name="update_title">Phiên bản được cập nhật!</string>
+    <string name="update_content">Tìm phiên bản mới, cập nhật ngay lập tức</string>
+    <string name="download_fail">Lỗi tải xuống, bấm thử lại</string>
+    <string name="toast_download_apk">Cập nhật tải xuống ...</string>
+    <string name="downloading">tải xuống</string>
+    <string name="no_storage_permission">"Không có quyền lưu trữ, bạn có muốn mở nó không?"</string>
+    <string name="check_wifi_notice">"Hiện chưa kết nối với Wifi, có tiếp tục tải xuống không"</string>
+    <string name="install">cài đặt ngay</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="notice">prompt</string>
+    <string name="cancel">annullera</string>
+    <string name="sure">bekräfta</string>
+    <string name="update_now">uppdatera omedelbart</string>
+    <string name="update_cancel">Inte uppdaterad</string>
+    <string name="update_title">Versionen är uppdaterad!</string>
+    <string name="update_content">Hitta en ny version, uppdatera omedelbart</string>
+    <string name="download_fail">Nedladdningsfel, klicka på nytt</string>
+    <string name="toast_download_apk">Uppdatera nedladdning ...</string>
+    <string name="downloading">laddar ner</string>
+    <string name="no_storage_permission">"Ingen lagringstillstånd, vill du öppna den?"</string>
+    <string name="check_wifi_notice">"För närvarande inte ansluten till Wifi, om du vill fortsätta ladda ner"</string>
+    <string name="install">installera nu</string>
+</resources>
