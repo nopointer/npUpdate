@@ -21,7 +21,6 @@
         <activity
             android:name=".ui.UpdateAppActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"
             android:theme="@style/DialogActivityTheme" />
 
         <provider

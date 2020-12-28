@@ -130,6 +130,7 @@ internal class UpdateAppActivity : AppCompatActivity() {
                 }
                 preDownLoad()
             }
+
         }
 
         // 强制更新 不显示取消按钮
