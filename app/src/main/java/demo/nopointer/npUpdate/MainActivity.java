@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
         findViewById(R.id.textBtn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AppUpdate.getInstance().checkUpdate();
+                AppUpdate.getInstance(MainActivity.this).checkUpdate();
             }
         });
 

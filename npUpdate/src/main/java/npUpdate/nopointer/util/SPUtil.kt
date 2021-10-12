@@ -74,9 +74,9 @@ internal object SPUtil {
         return sharedPreferences.getFloat(keyName, defaultValue)
     }
 
-    fun getString(keyName: String, defaultValue: String? = null): String {
+    fun getString(keyName: String, defaultValue: String): String {
         val sharedPreferences = getSp()
-        return sharedPreferences.getString(keyName, defaultValue)
+        return sharedPreferences.getString(keyName, defaultValue)!!
     }
 
     fun getLong(keyName: String, defaultValue: Long = -1L): Long {
@@ -84,7 +84,7 @@ internal object SPUtil {
         return sharedPreferences.getLong(keyName, defaultValue)
     }
 
-    fun getStringSet(keyName: String, defaultValue: Set<String>? = null): Set<String>? {
+    fun getStringSet(keyName: String, defaultValue: Set<String>): Set<String>? {
         val sharedPreferences = getSp()
         return sharedPreferences.getStringSet(keyName, defaultValue)
     }

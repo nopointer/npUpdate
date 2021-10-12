@@ -89,7 +89,7 @@ internal object Utils {
     fun getApkVersionCode(apkPath: String): Int {
         val pm = getApp().applicationContext.packageManager
         return try {
-            pm.getPackageArchiveInfo(apkPath, PackageManager.GET_ACTIVITIES).versionCode
+            pm.getPackageArchiveInfo(apkPath, PackageManager.GET_ACTIVITIES)!!.versionCode
         } catch (e: java.lang.Exception) {
             -1
         }
@@ -124,7 +124,7 @@ internal object Utils {
                 log("删除成功")
             }
         } catch (e: Exception) {
-            log(e.message)
+            log(e.message!!)
         }
     }
 
